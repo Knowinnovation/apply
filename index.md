@@ -1,3 +1,3 @@
-## Just a place holder for the title page
+## Welcome to the KnowInnovation Event Application Site
 
-We would say something about the range of events that we are currently recruiting for. We would need this just in case people came to apply.hub.ki rather than to the specific page.
+This website hosts the application information for multiple events. To apply to your specific event, please use the web address that was provided by the event organizers. If you don't have that address, please email support@knowinnovation.com and tell us the name of the event you wish to apply to.
