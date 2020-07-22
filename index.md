@@ -4,9 +4,7 @@ This website hosts the application information for multiple events. To apply to 
 
 ## Upcoming Events
 
-<a href='synbioandcancer'>
-<h3>New Applications of Synthetic Biology to Cancer Research Challenges: 2020 Virtual Jumpstart</h3>
-</a>
+### [New Applications of Synthetic Biology to Cancer Research Challenges: 2020 Virtual Jumpstart](/synbioandcancer)
 
 A Jumpstart to Expand Capacity to Address Important Cancer Questions by Reengineering Biology
 
