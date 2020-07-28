@@ -1585,7 +1585,7 @@
 /* Type */
 
   body, input, select, textarea {
-    color: #222;
+    color: #20202a;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: 300;
@@ -1595,7 +1595,7 @@
     @media screen and (max-width: 1680px) {
 
       body, input, select, textarea {
-        font-size: 11pt;
+        font-size: 12pt;
       }
 
     }
@@ -1603,7 +1603,7 @@
     @media screen and (max-width: 1280px) {
 
       body, input, select, textarea {
-        font-size: 11pt;
+        font-size: 12pt;
       }
 
     }
