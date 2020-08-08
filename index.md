@@ -14,3 +14,11 @@ Applications are due August 31st 2020 (5pm Eastern Time).
 
 Synthetic biology approaches are rapidly advancing and primed to transform cancer research. To capitalize on the opportunity and drive synthetic biology development to tackle pressing cancer research challenges, this three-day workshop will bring together diverse research and clinical communities across cancer and synthetic biology expertise areas to explore the possibilities and launch exciting research collaborations.
 
+### [Data Visualization Plus Cancer](/cancerplusviz)
+
+Data are only as useful as the insights we can glean from them.
+
+How might recent advances in interactive media and data visualization help illuminate and solve pertinent challenges in cancer research?
+
+We'll be hosting 4 Micro Labs, a poster session, and a 2-day Expo. Join us!
+
