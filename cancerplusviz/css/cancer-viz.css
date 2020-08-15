@@ -66,6 +66,7 @@ h5 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.25rem;
+  line-height: 1.5em;
   font-weight: 700;
 }
 
@@ -403,7 +404,9 @@ a:active {
 
 .card-pink {
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   border-bottom: 1px solid #eb5c98;
   background-color: #eb5c98;
   color: #12091e;
@@ -414,6 +417,10 @@ a:active {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.card-pink.card-flex-horizontal.programme {
+  padding-bottom: 1rem;
 }
 
 .card--agendacontent {
@@ -454,6 +461,7 @@ a:active {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin-bottom: 1rem;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -499,8 +507,9 @@ a:active {
 
 .card--avatar {
   position: relative;
-  min-height: 112px;
+  height: 200px;
   margin-right: 1rem;
+  border: 1px solid #eb5c98;
 }
 
 .heading-2 {
@@ -600,9 +609,17 @@ a:active {
 }
 
 .button--small {
-  display: inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: 3px solid #12091e;
   border-radius: 1000px;
   background-color: #eb5c98;
@@ -641,6 +658,42 @@ a:active {
 
 .card--text {
   margin-top: -6px;
+}
+
+.hero--intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 31px;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.card--event {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  padding-right: 0.5rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #eb5c98;
+  background-color: #12091e;
+  color: #fff;
+}
+
+.card--event.profile--spacer {
+  height: 0.5rem;
+  min-height: auto;
+  background-color: #eb5c98;
 }
 
 @media screen and (max-width: 991px) {
@@ -720,6 +773,12 @@ a:active {
     display: -ms-flexbox;
     display: flex;
   }
+  .card--event {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -736,9 +795,21 @@ a:active {
     padding-right: 1rem;
     padding-left: 1rem;
   }
+  .card--cover {
+    padding-left: 3px;
+  }
+  .hero--intro {
+    padding-bottom: 3rem;
+  }
+  .card--event {
+    margin-top: 4px;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  h2 {
+    font-size: 2.25em;
+  }
   .nav-link {
     font-size: 1.6em;
   }
@@ -747,6 +818,7 @@ a:active {
     font-size: 1.6em;
   }
   .text--small.text--primary.banner--text {
+    display: none;
     overflow: hidden;
   }
   .button-dark {
@@ -769,6 +841,90 @@ a:active {
   }
   .styles--header {
     max-width: 280px;
+  }
+  .card.no-border {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  .card.card--hero {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container.container--callout {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .section.section--hero {
+    padding-top: 4rem;
+  }
+  .section.padding-bottom-lg {
+    padding-bottom: 2rem;
+  }
+  .card-pink {
+    text-align: center;
+  }
+  .card-pink.card-flex-horizontal.programme {
+    margin-bottom: 0rem;
+  }
+  .card--programdetailheader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .card--profile {
+    padding-top: 1.5rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card--avatar {
+    margin-right: 0rem;
+    border-radius: 1000px;
+  }
+  .profile--plus {
+    left: auto;
+  }
+  .banner-register {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+  }
+  .card--cover {
+    width: 100%;
+    margin-right: 0rem;
+    padding-left: 0px;
+  }
+  .hero--intro {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .card--event {
+    padding-right: 0rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .column {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
