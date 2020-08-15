@@ -2183,7 +2183,7 @@
 /* Box */
 
   .box {
-    border: solid 1px #dbdbdb;
+    border: solid 4px #ebebeb;
     margin-bottom: 2em;
     padding: 1.5em;
   }
@@ -2216,6 +2216,22 @@
         .box.person .image img {
           max-width: 100%;
         }
+
+  aside.box {
+    background: #ebebeb;
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    aside.box {
+      max-width: 600px;
+      float: right;
+      display: inline-block;
+      margin: 1em 0 1em 2em;
+      background: #ebebeb;
+    }
+
+  }
 
 /* Icon */
 
