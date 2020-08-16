@@ -650,6 +650,18 @@ a:active {
   background-color: #bfd1ff;
 }
 
+.button--small.disabled {
+  border-color: rgba(18, 9, 30, 0.3);
+  cursor: not-allowed;
+}
+
+.button--small.disabled:hover {
+  box-shadow: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
 .card--cover {
   position: relative;
   width: 50%;
@@ -782,6 +794,9 @@ a:active {
 }
 
 @media screen and (max-width: 767px) {
+  .text--small.text--primary.banner--text {
+    display: none;
+  }
   .display {
     font-size: 4.7em;
   }
@@ -794,6 +809,9 @@ a:active {
   .section {
     padding-right: 1rem;
     padding-left: 1rem;
+  }
+  .banner--register-text {
+    width: 240px;
   }
   .card--cover {
     padding-left: 3px;
@@ -818,7 +836,6 @@ a:active {
     font-size: 1.6em;
   }
   .text--small.text--primary.banner--text {
-    display: none;
     overflow: hidden;
   }
   .button-dark {
@@ -868,6 +885,7 @@ a:active {
   }
   .card-pink.card-flex-horizontal.programme {
     margin-bottom: 0rem;
+    text-align: left;
   }
   .card--programdetailheader {
     -webkit-box-orient: vertical;
@@ -902,6 +920,13 @@ a:active {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .banner--register-text {
+    display: none;
   }
   .card--cover {
     width: 100%;
