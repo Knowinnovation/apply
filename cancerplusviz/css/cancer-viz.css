@@ -508,6 +508,7 @@ a:active {
 .card--avatar {
   position: relative;
   height: 200px;
+  width: 112px;
   margin-right: 1rem;
   border: 1px solid #eb5c98;
 }
