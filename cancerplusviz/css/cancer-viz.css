@@ -526,6 +526,10 @@ a:active {
   width: 112px;
   height: 200px;
   margin-right: 1rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
   border: 1px solid #eb5c98;
 }
 
