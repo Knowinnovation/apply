@@ -386,7 +386,7 @@ a:active {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem 7rem 1.9rem;
+  padding: 2rem 1rem 1.9rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -396,12 +396,19 @@ a:active {
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid #eb5c98;
-  text-align: center;
+  border-radius: 1rem;
+  background-color: #eb5c98;
+  background-image: url('../images/bg-vizCellColor.svg');
+  background-position: 300% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: left;
 }
 
 .text-callout {
   font-size: 2rem;
   line-height: 1;
+  font-weight: 900;
 }
 
 .header {
@@ -437,6 +444,10 @@ a:active {
 
 .card-pink.card-flex-horizontal.programme {
   padding-bottom: 1rem;
+}
+
+.card-pink.card-flex-horizontal.programme.passed {
+  background-color: rgba(235, 92, 152, 0.47);
 }
 
 .card--agendacontent {
@@ -731,6 +742,10 @@ a:active {
 
 .padding--bottom {
   margin-bottom: 1rem;
+}
+
+.text--large {
+  font-size: 1.2em;
 }
 
 @media screen and (max-width: 991px) {
