@@ -396,7 +396,7 @@ a:active {
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid #eb5c98;
-  text-align: center;
+  text-align: left;
 }
 
 .text-callout {
