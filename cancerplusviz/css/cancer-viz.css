@@ -51,7 +51,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   color: #eb5c98;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 1.2em;
   font-weight: 900;
   text-transform: uppercase;
@@ -401,6 +401,11 @@ a:active {
   text-align: left;
 }
 
+.container.container--callout h1,
+.container.container--callout h2 {
+  color: white;
+}
+
 .text-callout {
   font-size: 2rem;
   line-height: 1;
@@ -613,6 +618,12 @@ a:active {
   cursor: pointer;
 }
 
+.apply-button {
+  border-color: #eb5c98;
+  background: white;
+  color: #eb5c98;
+}
+
 .button--primary:hover {
   border-radius: 100px;
   box-shadow: 6px 6px 0 0 hsla(0, 0%, 100%, 0.25);
@@ -630,6 +641,15 @@ a:active {
 
 .button--primary:focus {
   background-color: #bfd1ff;
+}
+
+.apply-button:hover {
+}
+
+.apply-button:active {
+}
+
+.apply-button:focus {
 }
 
 .banner-logo {
