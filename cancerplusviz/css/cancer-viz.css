@@ -6,46 +6,55 @@ div.mentors {
   align-items: flex-start;
 }
 
-div.mentor {
+a.mentor {
   flex: 1 1 300px;
   margin: .5em;
   max-width: 110px;
+  color: white;
+  text-decoration: none;
+  line-height: 1.25;
+  transition: .5s;
+}
+
+a.mentor:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 420px) {
-  div.mentor {
+  a.mentor {
     margin: .5em;
     max-width: 130px;
   }
 }
 
 @media screen and (min-width: 600px) {
-  div.mentor {
+  a.mentor {
     max-width: 150px;
   }
 }
 
 @media screen and (min-width: 720px) {
-  div.mentor {
+  a.mentor {
     max-width: 110px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  div.mentor {
+  a.mentor {
     max-width: 150px;
   }
 }
 
-div.mentor img {
+a.mentor img {
   border-radius: .2em;
 }
 
-div.mentor h4 {
+a.mentor h4 {
   margin-bottom: .25em;
 }
 
-div.mentor p.bioline {
+a.mentor p.bioline {
   font-style: italic;
   font-size: .85em;
 }
