@@ -41,6 +41,15 @@ div.mentor img {
   border-radius: .2em;
 }
 
+div.mentor h4 {
+  margin-bottom: .25em;
+}
+
+div.mentor p.bioline {
+  font-style: italic;
+  font-size: .85em;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
