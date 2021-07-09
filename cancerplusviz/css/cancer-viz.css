@@ -21,6 +21,12 @@ a.mentor:hover {
   cursor: pointer;
 }
 
+hr {
+  color: #eb5c98;
+  margin: 3em auto;
+  max-width: 938px;
+}
+
 @media screen and (min-width: 420px) {
   a.mentor {
     margin: .5em;
