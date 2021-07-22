@@ -7,7 +7,7 @@ div.mentors {
 }
 
 a.mentor {
-  flex: 1 1 300px;
+  flex: 0 0 300px;
   margin: .5em;
   max-width: 110px;
   color: white;
@@ -19,6 +19,12 @@ a.mentor {
 a.mentor:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+hr {
+  color: #eb5c98;
+  margin: 3em auto;
+  max-width: 938px;
 }
 
 @media screen and (min-width: 420px) {
@@ -36,13 +42,13 @@ a.mentor:hover {
 
 @media screen and (min-width: 720px) {
   a.mentor {
-    max-width: 110px;
+    max-width: 160px;
   }
 }
 
 @media screen and (min-width: 992px) {
   a.mentor {
-    max-width: 150px;
+    max-width: 130px;
   }
 }
 
