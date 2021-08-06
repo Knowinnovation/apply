@@ -1,3 +1,70 @@
+
+div.mentors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+a.mentor {
+  flex: 0 0 300px;
+  margin: .5em;
+  max-width: 110px;
+  color: white;
+  text-decoration: none;
+  line-height: 1.25;
+  transition: .5s;
+}
+
+a.mentor:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+hr {
+  color: #eb5c98;
+  margin: 3em auto;
+  max-width: 938px;
+}
+
+@media screen and (min-width: 420px) {
+  a.mentor {
+    margin: .5em;
+    max-width: 130px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  a.mentor {
+    max-width: 150px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  a.mentor {
+    max-width: 160px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  a.mentor {
+    max-width: 130px;
+  }
+}
+
+a.mentor img {
+  border-radius: .2em;
+}
+
+a.mentor h4 {
+  margin-bottom: .25em;
+}
+
+a.mentor p.bioline {
+  font-style: italic;
+  font-size: .85em;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
