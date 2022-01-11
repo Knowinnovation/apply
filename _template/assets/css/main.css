@@ -1674,6 +1674,8 @@
   h3 {
     font-size: 1.35em;
     font-weight: 500;
+    margin-top:1em !important;
+    margin-bottom:0.49em !important;
   }
 
   h4 {
