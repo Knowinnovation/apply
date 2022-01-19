@@ -3117,7 +3117,7 @@ iframe.vimeo {
     max-width:400px;
   }
   .columns{
-    display:flex; 
+    display:flex !important; 
   }
   #column1{
     padding-right:30px;
