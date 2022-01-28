@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Lato&family=Source+Serif+Pro:wght@700&display=swap";
-@font-face {
-  font-family: HKGrotesk-Medium;
-  src: url(../fonts/HKGrotesk-Medium.otf);
-}
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
 /*
   Theory by TEMPLATED
@@ -13,11 +9,6 @@
 */
 
 /* Reset */
-.filter-black{
-  height:50px;
-  width:50px;
-  filter: brightness(0) saturate(100%);
-}
 
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -1595,15 +1586,16 @@
 
   body, input, select, textarea {
     color: #20202a;
-    font-family: 'HKGrotesk-Medium', 'Lato', sans-serif;
-    font-size: 23px;
-    line-height: 34.2px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.65;
   }
 
     @media screen and (max-width: 1680px) {
 
       body, input, select, textarea {
-        font-size: 20px;
+        font-size: 12pt;
       }
 
     }
@@ -1613,7 +1605,6 @@
       body, input, select, textarea {
         font-size: 12pt;
       }
-     
 
     }
 
@@ -1642,7 +1633,7 @@
     }
 
   a {
-    color: #ff414b;
+    color: #5385c1;
     text-decoration: underline;
   }
 
@@ -1651,7 +1642,7 @@
     }
 
   strong, b {
-    color: #000000;
+    color: #555;
     font-weight: 600;
   }
 
@@ -1664,8 +1655,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Amiri', serif, 'Source Serif Pro', serif;
-    color: #000000;
+    color: #5385c1;
+    font-weight: 300;
     line-height: 1.5;
     margin: 0 0 1em 0;
   }
@@ -1674,24 +1665,15 @@
       color: inherit;
       text-decoration: none;
     }
- 
 
   h2 {
     font-size: 2.5em;
     font-weight: 500;
   }
-  @media screen and (max-width: 800px) {
-
-    h2 {
-      line-height:1.3;
-    }
-
-  }
 
   h3 {
-    font-size: 2em;
+    font-size: 1.35em;
     font-weight: 500;
-    color: #ff414b
   }
 
   h4 {
@@ -1761,9 +1743,7 @@
     hr.major {
       margin: 3em 0;
     }
-    strong {
-      color: #ff414b;
-    }
+
   .align-left {
     text-align: left;
   }
@@ -1777,10 +1757,8 @@
   }
 
   .inner {
-    max-width: 60em;
+    max-width: 75em;
     margin: 0 auto;
-    padding-left:50px;
-    padding-right:50px;
   }
 
     @media screen and (max-width: 1280px) {
@@ -1810,7 +1788,7 @@
     }
 
   section.wrapper, article.wrapper {
-    padding: 4em 0;
+    padding: 6em 0;
   }
 
     section.wrapper header, article.wrapper header {
@@ -2249,7 +2227,7 @@
       max-width: 600px;
       float: right;
       display: inline-block;
-      margin: 0em 0 1em 2em;
+      margin: 1em 0 1em 2em;
       background: #ebebeb;
     }
 
@@ -2590,7 +2568,7 @@
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    /* background-color: #5a5a5a; */
+    background-color: #5a5a5a;
     border-radius: 0;
     border: 0;
     color: #ffffff !important;
@@ -2702,9 +2680,8 @@
     input[type="button"].special,
     button.special,
     .button.special {
-      border: 1px solid #000;
-      /* background-color: #5385c1; */
-      color: #000 !important;
+      background-color: #5385c1;
+      color: #ffffff !important;
     }
 
       input[type="submit"].special:hover,
@@ -2712,7 +2689,7 @@
       input[type="button"].special:hover,
       button.special:hover,
       .button.special:hover {
-        background-color: #ff414b;
+        background-color: #6692c8;
       }
 
       input[type="submit"].special:active,
@@ -2720,7 +2697,7 @@
       input[type="button"].special:active,
       button.special:active,
       .button.special:active {
-        background-color: #ff414b;
+        background-color: #4278b8;
       }
 
     input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2981,42 +2958,30 @@
 /* Banner */
 
   #banner {
-    padding: 8em 0 5em 0;
-    background-image: url('../../images/CZI_Banner.png'); 
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../../images/CZI_Banner.png'); */
-    /* background-color: #ffc943; */
+    padding: 12em 0 10em 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.6)) ,  url('../../images/banner.jpg');
     background-size: cover;
     background-position: center center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-repeat: no-repeat;
     text-align: center;
-    border-top: 0.5em solid #ff414b;
+    border-top: 0.5em solid #5385c1;
   }
 
     #banner h1 {
       font-size: 3.5em;
-      color: #000;
+      font-weight: 400;
+      color: #fff;
       line-height: 1em;
-      margin: 0 auto;
-      padding: 0 0 1em 0;
-      max-width: 1200px;
-      /* text-shadow: 1px 1px 2px #555 */
+      margin: 0 0 0.5em 0;
+      padding: 0 2em;
+      text-shadow: 2px 2px 3px #555
     }
 
     #banner p {
       font-size: 1em;
       color: rgba(255, 255, 255, 0.55);
       margin-bottom: 1.75em;
-    }
-
-    .logo-left {
-      padding:15px;
-      position: absolute;
-      top: 11px;
-      left: 0px;
-      width:210px;
-      height:115px; 
-      background-color: #FFC943;
     }
 
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -3056,11 +3021,6 @@
         #banner p {
           font-size: .9em;
         }
-
-      .logo-left {
-        width:168px;
-        height:92px; 
-      }
 
     }
 
@@ -3137,4 +3097,49 @@
 iframe.vimeo {
   border-radius: .2em;
 }
+
+/*Video Embed */
+.video-embed {
+  max-width:100%;
+}
+.columns{
+  display:flex; 
+}
+
+@media screen and (max-width: 1022px) {
+  .columns{
+    display:block; 
+  }
+ 
+}
+@media screen and (min-width: 1023px) {
+  .video-embed {
+    max-width:400px;
+  }
+  .columns{
+    display:flex !important; 
+  }
+  #column1{
+    padding-right:30px;
+  }
+  #column2{
+    padding-left:30px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .video-embed {
+    max-width:500px;
+  }
+ 
+}
+
+@media screen and (min-width: 1280px) {
+  .video-embed {
+    max-width:550px;
+  }
+  
+}
+
+/*Columns*/
 
