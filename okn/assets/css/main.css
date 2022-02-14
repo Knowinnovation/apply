@@ -1633,7 +1633,7 @@
     }
 
   a {
-    color: #cf425a;
+    color: #002554;
     text-decoration: underline;
   }
 
@@ -1655,7 +1655,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #cf425a;
+    color: #002554;
     font-weight: 300;
     line-height: 1.5;
     margin: 0 0 1em 0;
@@ -1809,7 +1809,7 @@
     }
 
     section.wrapper.style1, article.wrapper.style1 {
-      background: #cf425a;
+      background: #002554;
       color: #bacee6;
     }
 
@@ -2032,8 +2032,8 @@
     input[type="tel"]:focus,
     select:focus,
     textarea:focus {
-      border-color: #cf425a;
-      box-shadow: 0 0 0 1px #cf425a;
+      border-color: #002554;
+      box-shadow: 0 0 0 1px #002554;
     }
 
   .select-wrapper {
@@ -2143,8 +2143,8 @@
 
     input[type="checkbox"]:focus + label:before,
     input[type="radio"]:focus + label:before {
-      border-color: #cf425a;
-      box-shadow: 0 0 0 1px #cf425a;
+      border-color: #002554;
+      box-shadow: 0 0 0 1px #002554;
     }
 
   input[type="checkbox"] + label:before {
@@ -2680,7 +2680,7 @@
     input[type="button"].special,
     button.special,
     .button.special {
-      background-color: #cf425a;
+      background-color: #002554;
       color: #ffffff !important;
     }
 
@@ -2736,7 +2736,7 @@
   }
 
     .subpage #header {
-      background: #cf425a;
+      background: #002554;
       top: 0;
       height: 44px;
       line-height: 44px;
@@ -2880,7 +2880,7 @@
     position: fixed;
     right: 0;
     top: 0;
-    background: #cf425a;
+    background: #002554;
     color: #d4e0ef;
     height: 100%;
     max-width: 80%;
@@ -2959,13 +2959,13 @@
 
   #banner {
     padding: 12em 0 10em 0;
-    background-image: url('../../images/red-network.jpg');
+    background-image: url('../../images/blue-network.jpg');
     /* background-image: url('../../images/zip-tie-rna.jpg'); */
     background-size: cover;
     background-position: center 85%;
     background-repeat: no-repeat;
     text-align: center;
-    border-top: 0.5em solid #cf425a;
+    border-top: 0.5em solid #002554;
   }
 
     #banner h1 {
