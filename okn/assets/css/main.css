@@ -2224,7 +2224,7 @@
   @media screen and (min-width: 1024px) {
 
     aside.box {
-      max-width: 600px;
+      max-width: 500px;
       float: right;
       display: inline-block;
       margin: 1em 0 1em 2em;
