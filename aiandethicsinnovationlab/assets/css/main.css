@@ -3146,6 +3146,13 @@ iframe.vimeo {
 /*Columns*/
 
 @media print {
+  @page { size: auto;  margin: 5mm;}
+  body {
+    margin:1em;
+  }
+  header nav, footer {
+    display: none;
+    }
   #one {
     padding:0;
   }
